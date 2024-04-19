@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./estilos.css">
+    <title>JD Desarrollador Web</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>JG</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTAFOLIO</a></li>
+                            <li><a href="#github-section" onclick="seleccionar(this)">CONTACTO</a></li>
+
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="redes">
+                        <a href="https://youtube.com/@davidgonzalez6214?si=ntt-N1V1w_ClVX2H"><i class="fab fa-youtube" ></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100078193705267&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/stinngp?igsh=MTZ5ZHAyejFsMTlnbg=="><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Justin Gonzalez </span>, Desarrollador Web</h2>
+                <p class="descripcion">un apasionado estudiante de Ingeniería en Sistemas, y este es mi rincón virtual donde la creatividad y la tecnología se fusionan</p>
+                <a href="#portafolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/mifoto.jpeg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Justin Gonzalez </h3>
+            <p> Un entusiasta de la programación y estudiante de Ingeniería en Sistemas. A mis 20 años, estoy emocionado por explorar y aprender todo sobre el mundo de la tecnología y el desarrollo de software. </p>
+            <p>Actualmente estoy cursando la carrera de Ingeniería en Sistemas en la universidad autonoma de honduras.
+                Aunque soy relativamente nuevo en la carrera, estoy dedicado a absorber todo el conocimiento que pueda para convertirme en un desarrollador competente y creativo.</p>
+        </div>
+    </section>
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>PSeInt</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Html & Css</p>
+                <span class="porcentaje">70%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>bootstrap</p>
+                <span class="porcentaje">70%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Javascript</p>
+                <span class="porcentaje">50%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+    </div>
+<!-- SECCION PORTAFOLIO -->
+<section id="portfolio">
+    <h3 class="titulo-seccion">Mis Proyectos</h3>
+    <div class="fila">
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <img src="img/proyecto1.png" alt="">
+            <div class="info">
+                <h4>Descripcion Proyecto</h4>
+                <p>primera pagina realizada</p>
+            </div>
+        </div>
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <img src="img/proyecto2.png" alt="">
+            <div class="info">
+                <h4>Descripcion Proyecto</h4>
+                <p>segunda pagina realizada</p>
+            </div>
+        </div>
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <img src="img/proyecto3.png" alt="">
+            <div class="info">
+                <h4>Descripcion Proyecto</h4>
+                <p>replica de la pagina de nike</p>
+            </div>
+        </div>
+    </div>
+    <div class="fila">
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <img src="img/proyecto4.png" alt="">
+            <div class="info">
+                <h4>Descripcion Proyecto</h4>
+                <p>replica de la pagina Namecheap</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+ <!-- Contacto -->
+ <div class="contacto" id="github-section">
+    <a href="https://github.com/gonzalezjustindavid" class="github-btn"><i class="fab fa-github"></i> GitHub</a>
+</div>
+
+
+<!-- SECCION FOOTER -->
+    <footer>
+        <div class="redes">
+            <a href="https://youtube.com/@davidgonzalez6214?si=ntt-N1V1w_ClVX2H"><i class="fab fa-youtube" ></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100078193705267&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/stinngp?igsh=MTZ5ZHAyejFsMTlnbg=="><i class="fa-brands fa-instagram-square"></i></a>
+            <p>Derechos de autor © 2024 - JD</p>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
